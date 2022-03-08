@@ -1,0 +1,42 @@
+languageCode = "en-us"
+title = "Mehmet Akif Duba"
+baseurl = "http://makifdb.com/"
+paginate = "3"
+
+[params]
+  username = "makifdb"
+
+[build]
+  writeStats = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = 'paraiso-dark'
+  
+[[menu.main]]
+name = "Home"
+weight = 1
+url = "/"
+
+[[menu.main]]
+name = "Blog"
+weight = 2
+url = "blog/"
+
+[[menu.main]]
+name = "Tweets"
+weight = 3
+url = "https://www.twitter.com/makifdb"
+
+[[menu.main]]
+name = "Github"
+weight = 4
+url = "https://www.github.com/makifdb"
+
+[[menu.main]]
+name = "Linkedin"
+weight = 5
+url = "https://www.linkedin.com/in/makifdb"

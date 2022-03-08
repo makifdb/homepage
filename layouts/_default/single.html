@@ -1,0 +1,13 @@
+{{define "main"}}
+<div class="site-container">
+  <article>
+    <p class="text-center">{{ .PublishDate.Format "January 2, 2006" }}</p>
+    <h1 class="text-5xl text-gray-200 font-bold text-center mt-4 mb-10">{{ .Title }}</h1>
+    <div class="site-container p-0 prose prose-xl prose-invert prose-headings:text-gray-100 prose-a:text-green-600 prose-strong:text-gray-100 prose-code:text-green-900">
+        {{ .Content }}
+    </div>
+  </article>
+  {{ partial "pagination.html" . }}
+  {{ partial "footer.html" . }} 
+</div>
+{{end}}

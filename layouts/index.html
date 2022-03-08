@@ -1,0 +1,20 @@
+{{ define "main" }}
+<main>
+  <div class="site-container">
+    <div class="mb-10 space-y-6 text-xl">
+      <h1 class="text-6xl font-bold text-white text-center my-10">
+        {{ .Title }}
+      </h1>
+      <div class="text-center">
+        {{ .Content }}
+      </div>
+    </div>
+
+    {{ partial "li.html" . }}
+
+    <div class="mt-10 text-right">
+      <a href="/blog"> for more blog post ⟶ </a>
+    </div>
+  </div>
+</main>
+{{ end }}

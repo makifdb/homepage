@@ -1,0 +1,5 @@
+public
+node_modules
+resources/_gen/assets/css/
+
+.hugo_build.lock

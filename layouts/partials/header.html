@@ -1,0 +1,12 @@
+<header
+  class="site-container py-8 flex flex-col text-center md:flex-row md:text-left md:justify-between md:items-baseline w-full"
+>
+  <a href="/" class="text-2xl text-gray-400 hover:text-gray-400">{{ .Site.Title }}</a>
+  <nav class="space-x-4 items-center">
+    {{ with .Site.Menus.main}}
+    {{ range sort . }}
+      <a class="navigation-link" href="{{ index (apply (slice .URL) (.Params.urlFunc | default "relLangURL") ".") 0 }}">{{ .Name }}</a>
+    {{ end }}
+  {{ end }}
+  </nav>
+</header>

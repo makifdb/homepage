@@ -1,0 +1,29 @@
+/* assets */ 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer base {
+  html {
+    @apply bg-black font-mono;
+  }
+
+  a {
+    @apply text-green-800;
+  }
+
+  a:hover {
+    @apply text-green-700;
+  }
+
+  pre {
+    @apply overflow-auto bg-transparent border border-solid border-green-900 text-green-50 !important;
+  }
+}
+
+@layer components {
+  .site-container {
+    @apply max-w-6xl mx-auto text-gray-300 antialiased px-2 sm:px-4 md:px-8 pb-4;
+  }
+}

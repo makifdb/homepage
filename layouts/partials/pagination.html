@@ -1,0 +1,14 @@
+<div class="my-5">
+  <div class="flex justify-between">
+    <div class="">
+      {{ with .PrevInSection }}
+      <button><a href="{{ .Permalink }}">&#8592; Previous Post: {{ .Title }}</a></button>
+      {{ end }}
+    </div>
+    <div class="">
+      {{ with .NextInSection }}
+      <button><a href="{{ .Permalink }}">Next Post: {{ .Title }} &#8594;</a></button>
+      {{ end }}
+    </div>
+  </div>
+</div>

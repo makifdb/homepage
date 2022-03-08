@@ -1,0 +1,8 @@
+<ul class="list-disc pl-8">
+    {{ range .Paginator.Pages }}
+        <li class="pb-4">
+            <span class="text-sm text-gray-500">{{ .PublishDate.Format "Jan 02, 2006" }}</span>
+            <a class="font-bold pl-3" href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
+    {{ end }}
+</ul>

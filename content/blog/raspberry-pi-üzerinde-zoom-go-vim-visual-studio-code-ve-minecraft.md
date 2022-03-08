@@ -7,6 +7,8 @@ canonical: https://makifdb.medium.com/raspberry-pi-%C3%BCzerinde-zoom-go-vim-vis
 
 2016 yılında kendime bir adet Raspberry Pi 3 alıp bir süre kurcaladıktan sonra tozlu raflara kaldırmıştım ki Raspberry Pi’m [Adem](https://twitter.com/AdemOzcanTR)’in attığı twitle aklıma geldi. Ben de hem bir haftasonu aktivitesi olsun hem de Raspberry Pi’da ne gibi geliştirmeler-değişiklikler olmuş acaba diye merak edip tozlu raflardaki yerinden çıkartmaya karar verdim.
 
+{{< link "This blog page also available on Medium ⟶" "https://makifdb.medium.com/raspberry-pi-%C3%BCzerinde-zoom-go-vim-visual-studio-code-ve-minecraft-691254c9a918" >}}
+
 ## Ölüyü Diriltmek
 
 Raspberry Pi’a güç verip çalıştırdığımda beni Pixel arayüzü karşıladı. Uzunca bir süre internete bağlamadığım rpi’a boyutu büyük bir güncelleme gelmesini bekliyordum. Hemen wifi a bağlanmak istedim ama rpi3'e tümleşik gelen wifi adatörü yalnızca 2.4 ghz ağları desteklediği için ev ağımı listede göremeyince ondan vazgeçip ethernet kablosunu taktım.

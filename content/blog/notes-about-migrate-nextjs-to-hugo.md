@@ -39,7 +39,7 @@ Hugo's directory structure is very clean and simple. I restructure my website ea
 │   └── index.html
 ├── static
 │   ├── images
-|   |   └──my_awesome_image.jpg
+|   |   └── my_awesome_image.jpg
 │   └── favicon.ico
 ├── config.toml // Hugo's config file
 ├── package.json

@@ -14,7 +14,7 @@ paginate = "3"
     [markup.goldmark.renderer]
       unsafe = true
   [markup.highlight]
-    style = 'paraiso-dark'
+    style = 'rrt'
   
 [[menu.main]]
 name = "Home"

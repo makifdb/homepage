@@ -1337,9 +1337,9 @@ pre {
   color: rgb(243 244 246 / var(--tw-text-opacity));
 }
 
-.prose-code\:text-green-900 :is(:where(code):not(:where([class~="not-prose"] *))) {
+.prose-code\:text-gray-100 :is(:where(code):not(:where([class~="not-prose"] *))) {
   --tw-text-opacity: 1;
-  color: rgb(20 83 45 / var(--tw-text-opacity));
+  color: rgb(243 244 246 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {

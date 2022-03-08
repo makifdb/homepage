@@ -1,7 +1,7 @@
 {
-  "name": "hugotw3",
+  "name": "homepage",
   "version": "1.0.0",
-  "description": "Hugo & Tailwind CSS 3.0",
+  "description": "My personal website build with Hugo & TailwindCSS",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
@@ -20,17 +20,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/4044ever/Hugo-Tailwind-3.0.git"
+    "url": "git+https://github.com/makifdb/homepage.git"
   },
   "keywords": [
     "hugo",
-    "tailwind",
     "tailwindcss"
   ],
-  "author": "4044ever",
-  "license": "ISC",
+  "author": "makifdb",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/4044ever/Hugo-Tailwind-3.0/issues"
+    "url": "https://github.com/makifdb/homepage/issues"
   },
-  "homepage": "https://github.com/4044ever/Hugo-Tailwind-3.0#readme"
+  "homepage": "https://github.com/makifdb/homepage"
 }

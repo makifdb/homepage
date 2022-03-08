@@ -2,11 +2,12 @@
 title: Notes About Migrate Next.js to Hugo
 date: 2022-03-08T16:29:57+03:00
 draft: false
+image: images/anastasiia-balandina-CMUsC_BW1Ho-unsplash.jpg
 ---
 
-![Photo by Anastasiia Balandina on Unsplash](/images/anastasiia-balandina-CMUsC_BW1Ho-unsplash.jpg "Photo by Anastasiia Balandina on Unsplash")
-
 When I decided to write something on my own blog instead of Medium (although I almost never write), I created my first personal website using Next.js and TailwindCSS. I was keeping my blog on Github and writing my posts in `MDX` format. My only downside was that I had to mess with the JavaScript libraries.
+
+![Photo by Anastasiia Balandina on Unsplash](/images/anastasiia-balandina-CMUsC_BW1Ho-unsplash.jpg "Photo by Anastasiia Balandina on Unsplash")
 
 I wasn't feeling this comfortable with JavaScript and wanted to switch to Hugo,
 I postponed this for a long time for reasons such as transferring my blog posts and worrying about transferring the CSS I wrote with TailwindCSS. However, the JavaScript libraries I use have become obsolete over time and have been replaced by others. So I wanted to seize this opportunity and finally decided to switch Hugo.

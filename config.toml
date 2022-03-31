@@ -3,7 +3,8 @@ title = "Mehmet Akif Duba"
 baseurl = "http://makifdb.com/"
 paginate = "3"
 
-[params]
+[author]
+  name = "Mehmet Akif Duba"
   username = "makifdb"
 
 [build]

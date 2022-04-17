@@ -3,7 +3,7 @@
 My personal website uses the static site generator [Hugo](https://gohugo.io/). All styles are handled by [Tailwind CSS](https://tailwindcss.com).
 
 
-![ss](https://user-images.githubusercontent.com/31243845/162510301-8a09d63b-71c6-4cda-aa7b-ae7e70259038.png)
+![ss](https://user-images.githubusercontent.com/31243845/163721027-c50f700a-0fdb-442c-9685-d0732297710c.png)
 
 ### Installation
 
